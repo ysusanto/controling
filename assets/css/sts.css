@@ -1,0 +1,114 @@
+body {
+    background-color: #FFF;
+}
+
+h2.form-header {
+    margin-top: 0px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-toggle:hover {
+    background-color: #0066ff;
+}
+
+.navbar {
+    background: #000099;
+}
+
+a.navbar-brand:link,
+a.navbar-brand:visited,
+a.navbar-brand:hover,
+a.navbar-brand:active {
+    color:#FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.navbar-item:link,
+a.navbar-item:visited,
+a.navbar-item:active,
+.nav > li > a.navbar-item {
+    color:#FFF;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+a.navbar-item:hover,
+.nav > li > a.navbar-item:hover {
+    background-color: #4040cf;
+}
+
+.navbar-text {
+    color: #FFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 200;
+}
+
+.box {
+    max-width: 40%;
+    padding: 15px;
+    margin: 0 auto;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #E6E6E6;
+    border-radius: 5px;
+}
+
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-register input[name="name"] {
+    /*margin-top: 10px;*/
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-register input[name="email"] {
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-register input[name="password"] {
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-register input[name="confirm_password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-register input[name="admin_password"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.datepicker{
+  z-index:1151 !important;
+}
+.timepicker{
+  z-index:1151 !important;
+}
